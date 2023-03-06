@@ -1,0 +1,21 @@
+@import "src/scss/base/mixins";
+
+.first{
+  position: relative;
+  padding-top: 70px;
+  &__bg{
+
+  }
+  .container{
+    //@include text(500,22px,27px,#fff);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    row-gap: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}

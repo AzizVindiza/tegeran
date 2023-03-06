@@ -1,0 +1,46 @@
+@import "src/scss/base/mixins";
+
+.footer {
+  background: #231F1F;
+
+  .container {
+    padding: 20px 0;
+    background: #231F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
+
+  &__list {
+
+    &-title {
+      @include text(500, 22px, 27px, #fff)
+    }
+
+    &-wrapper {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 10px;
+
+    }
+
+    &-item {
+      @include text(400, 14px, 19px, rgba(255, 255, 255, 0.8));
+
+      &-num {
+        @include Inter;
+        @include text(400, 14px, 17px, rgba(255, 255, 255, 0.8));
+      }
+    }
+  }
+
+  &__made {
+    @include Inter;
+    @include text(300, 12x, 15px, #706E6E80);
+    text-align: center;
+    margin-top: 35px;
+  }
+}
