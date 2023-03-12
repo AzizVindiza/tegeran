@@ -1,16 +1,43 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import "./ServicesSection.scss"
-import ServicesCard from "./ServicesCard/ServicesCard";
+import ServicesCard from "../../../components/ServicesCard/ServicesCard";
+import ky from "ky";
+import Btn from "../../../components/Btn/Btn";
+import {Link} from "react-router-dom";
+import {animateScroll} from "react-scroll";
+
 const ServicesSection = () => {
+
+    const [data,setData]= useState([])
+   useEffect(()=>{
+       try {
+           const services = ky.get("https://mtk-smart.herokuapp.com/services/")
+               .json()
+               .then((res) => setData([...res]))
+
+       } catch (error) {
+           console.log(error.message)
+       }
+   },[])
+    const scrollToTop = ()=>{
+        animateScroll.scrollToTop({
+            delay: 0,
+            duration: 0
+        })
+    }
+
     return (
-        <section className="services">
-            <h2 className="services__title">
+        <section className="servicesSection">
+            <h2 className="servicesSection__title">
                 Наши услуги
             </h2>
             <div className="container">
-                {/*{data.map((el,id)=>(*/}
-                    <ServicesCard icon={"dsadsa"} title={"sdasd"} text={"dsadas"} number={+1} />
-                    {/*// ))}*/}
+                {data.map((el,idx)=>(
+                    <ServicesCard key={el.id} el={el} idx={idx}/>
+                    ))}
+                <Link onClick={scrollToTop} className="servicesSection__link" to={"services"}>
+                    <Btn text={'Все услуги'} type={"button"}/>
+                </Link>
             </div>
         </section>
     );

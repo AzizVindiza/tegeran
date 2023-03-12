@@ -1,0 +1,32 @@
+@import "src/scss/base/mixins";
+.branch{
+  background: url("./BranchSectionBg.png") ,linear-gradient(180deg, #FFFFFF 0%, #E2E4E2 51.84%, #FFFFFF 98.96%) ;
+  &__title{
+    @include text(600,25px,34px,#149345);
+    text-align: center;
+    margin-top: 30px;
+  }
+  .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 80px;
+  }
+  &__bg{
+    position: absolute;
+    top:0 ;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  &__img{
+    &:nth-child(odd){
+      flex-direction: row-reverse;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

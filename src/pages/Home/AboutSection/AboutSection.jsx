@@ -3,7 +3,7 @@ import "./AboutSection.scss"
 import map from "./map.svg"
 const AboutSection = () => {
     return (
-        <section className="about">
+        <section className="about" id={"about"}>
             <h2 className="about__title">
                 О компании
             </h2>

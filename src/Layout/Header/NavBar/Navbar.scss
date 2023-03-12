@@ -1,8 +1,9 @@
 @import "src/scss/base/mixins";
 .nav{
-  display: flex;
-  column-gap: 50px;
-  align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   &__btn{
     background: linear-gradient(45deg,#E9BC2E,#F0382B);
     color: #FFFFFF;
@@ -31,32 +32,15 @@
     }
   }
 }
-@media (max-width: 1440px) {
+
+@media (min-width: 1000px ) {
 }
 
-@media (max-width: 1201px) {
-  .nav{
-    column-gap: 30px;
-  }
+@media (min-width: 769px ) {
 }
 
-@media (max-width: 1025px) {
-  .nav{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@media (min-width: 1025px) {
 }
 
-@media (max-width: 769px ) {
-  .nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width: 481px ) {
+@media (min-width: 1201px) {
 }

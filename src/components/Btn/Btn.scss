@@ -5,4 +5,7 @@
   @include text(600,18px,25px,#ffffff);
   background: #8EC63F;
   box-shadow: 0 5px 20px rgba(45, 44, 44, 0.15);
+  &:hover{
+    background: #A1DE4B;
+  }
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Btn.scss"
-const Btn = ({text}) => {
+const Btn = ({text,type}) => {
     return (
-        <button className="btn" type="button">
+        <button className="btn" type={type}>
             {text}
         </button>
     );

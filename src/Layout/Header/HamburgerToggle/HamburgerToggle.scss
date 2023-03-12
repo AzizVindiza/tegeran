@@ -1,5 +1,5 @@
 .hamburger{
-  display: none;
+  display: flex;
   row-gap: 6px;
   flex-direction: column;
   background: transparent;
@@ -37,23 +37,17 @@
     }
   }
 }
-@media (max-width: 1440px) {
-}
-
-@media (max-width: 1201px) {
-}
-
-@media (max-width: 1025px) {
+@media (min-width: 1000px ) {
   .hamburger{
-    display: flex;
+    display: none;
   }
 }
 
-@media (max-width: 769px ) {
- .hamburger{
-   display: flex;
- }
+@media (min-width: 769px ) {
 }
 
-@media (max-width: 481px ) {
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 1201px) {
 }

@@ -1,0 +1,20 @@
+@import "src/scss/base/mixins";
+.pagePath{
+
+
+  &__container{
+    padding: 22px 0;
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+
+  }
+  &__link{
+    @include text(500,15px,18px,#C8C7C6);
+    @include Inter;
+    &:last-child{
+      color: #8EC63F;
+      pointer-events: none;
+    }
+  }
+}

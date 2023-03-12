@@ -9,11 +9,7 @@ const NavBar = ({toggleClass}) => {
     return (
         <ul className='nav container'>
             <li className="nav__item">
-                <NavLink className="nav__link" to="/ticket" onClick={() => {
-                    toggleClass()
-                }}>
-                <button className="nav__btn" type="button">Купить билет</button>
-                </NavLink>
+                <a className="nav__link" href="#about">О нас</a>
             </li>
             <li className='nav__item'><NavLink className="nav__link" to="/" onClick={() => {
                 toggleClass()

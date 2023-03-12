@@ -15,7 +15,7 @@ const FirstSection = () => {
                     Ваш легкий старт в международном бизнесе
                 </h3>
                 <Link to={"/services"}>
-                    <Btn text={"Наши услуги"}/>
+                    <Btn text={"Наши услуги"} type={"button"}/>
                 </Link>
             </div>
             <div className="first__bg-svg">

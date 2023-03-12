@@ -1,0 +1,21 @@
+@import "src/scss/base/mixins";
+.servicesSection {
+
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E4E2 44.33%, #FFFFFF 98.96%);
+  &__title{
+    padding: 30px 0;
+    text-align: center;
+    @include text(600,25px,34px,#149345)
+  }
+  .container{
+    padding: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  &__link{
+    
+  }
+}
