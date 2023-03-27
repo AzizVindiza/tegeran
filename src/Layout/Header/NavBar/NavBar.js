@@ -1,50 +1,43 @@
 import React from 'react';
 import "./Navbar.scss"
 import {NavLink} from "react-router-dom";
+import {NavHashLink} from "react-router-hash-link";
 
 
 
-const NavBar = ({toggleClass}) => {
+const NavBar = ({toggleClass,setActiveHamburger,isActiveHamburger}) => {
+    const closeHamburger = () => {
+        setActiveHamburger(!isActiveHamburger);
+    };
     // const {user} = useSelector((store) => store.user)
     return (
         <ul className='nav container'>
             <li className="nav__item">
-                <a className="nav__link" href="#about">О нас</a>
+                <NavHashLink className={"nav__link"} to={"/#about"} onClick={closeHamburger}>
+                    О нас
+                </NavHashLink>
             </li>
-            <li className='nav__item'><NavLink className="nav__link" to="/" onClick={() => {
-                toggleClass()
-            }}>Цены</NavLink></li>
             <li className='nav__item'><NavLink className="nav__link" to="/services" onClick={() => {
                 toggleClass()
             }}>Услуги</NavLink></li>
-            <li className='nav__item'><NavLink className="nav__link" to="/reviews" onClick={() => {
-                toggleClass()
-            }}>Отзывы</NavLink></li>
-            <li className='nav__item'><NavLink className="nav__link" to="/about" onClick={() => {
+            <li className="nav__item">
+                <NavHashLink className={"nav__link"} to={"/#branch"} onClick={closeHamburger}>
+                    Филиалы
+                </NavHashLink>
+            </li>
+            <li className='nav__item'><NavLink className="nav__link" to="/contacts" onClick={() => {
                 toggleClass()
             }}>Контакты</NavLink>
             </li>
-            <li className='nav__item'>
-                <NavLink className="nav__link" to="/vacancies"
-                                               onClick={() => {
-                                                   toggleClass()
-                                               }}>Карьера</NavLink></li>
-            {/*{user.email === "" ? <>*/}
-            {/*        <li className='nav__item nav__acc'>*/}
-            {/*            <NavLink className="nav__link" to="/register" onClick={toggleClass}>*/}
-            {/*                Регистрация </NavLink>*/}
-            {/*        </li>*/}
-            {/*        <li className='nav__item nav__acc'>*/}
-            {/*            <NavLink className="nav__link" to="/login" onClick={toggleClass}>*/}
-            {/*                Войти </NavLink>*/}
-            {/*        </li>*/}
-            {/*    </>*/}
-
-            {/*    :*/}
-            {/*    <li className='nav__item '>*/}
-            {/*        <NavLink className="nav__link nav__acc" to="/account/info" onClick={toggleClass}>Мой*/}
-            {/*            аккаунт</NavLink>*/}
-            {/*    </li>}*/}
+            <li className="nav__item">
+                <a href="https://wa.me/79035070012" className="nav__link nav__link_whatsapp">
+                    +79035070012
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="20" fill="#F3F3F3"/>
+                        <path d="M29.5664 17.0006C28.3501 13.0579 24.7876 10.2639 20.6602 10.0177C19.7855 9.9676 18.9154 10.0223 18.0544 10.2001C16.2276 10.5784 14.624 11.3897 13.2664 12.6614C11.435 14.3752 10.3827 16.4855 10.1276 18.9788C10.041 19.8174 10.0729 20.6561 10.205 21.4857C10.3963 22.6662 10.7881 23.7738 11.3758 24.8084C11.4031 24.854 11.4031 24.8905 11.3895 24.9361C10.9977 26.3718 10.5968 27.8076 10.205 29.2434C10.1367 29.4941 10.0683 29.7448 10 30C10.0319 29.9954 10.0501 29.9909 10.0683 29.9863C11.7813 29.5396 13.4896 29.093 15.198 28.6417C15.2526 28.628 15.2936 28.6326 15.3392 28.6554C17.0339 29.5488 18.8425 29.9316 20.7604 29.7994C21.6396 29.7402 22.4915 29.5624 23.3252 29.2707C27.1201 27.9489 29.7623 24.4484 29.981 20.4556C30.0539 19.2842 29.9172 18.131 29.5664 17.0006ZM25.1065 22.5796C25.0791 22.8986 25.0199 23.204 24.906 23.5003C24.8423 23.6598 24.7375 23.792 24.6145 23.906C24.2409 24.2569 23.8081 24.5213 23.3025 24.6261C22.7831 24.7355 22.2592 24.7173 21.7535 24.5623C21.0656 24.3526 20.3914 24.1111 19.7582 23.7783C18.929 23.3408 18.2047 22.7665 17.5441 22.1147C16.9838 21.5631 16.4918 20.9569 16.0271 20.3143C15.7037 19.863 15.4166 19.3935 15.2162 18.8694C14.9656 18.213 14.9064 17.543 15.1069 16.8639C15.2572 16.3488 15.5624 15.934 15.9497 15.5739C16.1182 15.419 16.3232 15.3415 16.5556 15.3506C16.6376 15.3552 16.7196 15.3506 16.8016 15.3506C16.797 15.3506 16.797 15.3552 16.797 15.3552H17.1068C17.2298 15.3552 17.3255 15.4007 17.3938 15.4965C17.4621 15.5967 17.5259 15.7061 17.5715 15.8155C17.8129 16.3807 18.0316 16.955 18.2913 17.5202C18.4097 17.78 18.4234 18.0079 18.2548 18.2358C18.0908 18.4592 17.9222 18.6825 17.7355 18.8876C17.5168 19.1292 17.4986 19.2112 17.6671 19.4938C18.2913 20.5103 19.0885 21.3535 20.1408 21.9369C20.4461 22.1101 20.7695 22.2468 21.0884 22.3927C21.2843 22.4793 21.4119 22.4428 21.5485 22.2788C21.8173 21.9551 22.0815 21.6224 22.3458 21.2942C22.4642 21.1484 22.5735 21.0937 22.7558 21.1575C22.9426 21.2213 23.1248 21.2988 23.3025 21.3808C23.8127 21.6224 24.3138 21.8777 24.824 22.1101C25.0381 22.2013 25.1247 22.3471 25.1065 22.5796Z" fill="#8EC63F"/>
+                    </svg>
+                </a>
+            </li>
         </ul>
     );
 };

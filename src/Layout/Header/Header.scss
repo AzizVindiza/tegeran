@@ -16,6 +16,10 @@
 
 
 .header__{
+  &logo{
+    position: relative;
+    z-index: 100;
+  }
   &logo img{
     height: auto;
   }
@@ -30,13 +34,13 @@
     display: none;
     &_active{
       display: flex;
-      position: absolute;
-      top: 200px;
+      position: fixed;
+      top: 0;
       left: 0;
       bottom: 0;
       right: 0;
       margin: auto;
-      background: #11111180;
+      background: #FFFFFF;
       z-index: 99;
       height: 100vh;
     }

@@ -4,6 +4,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      row-gap: 27px;
   &__btn{
     background: linear-gradient(45deg,#E9BC2E,#F0382B);
     color: #FFFFFF;
@@ -23,7 +24,7 @@
     border-radius: 10px;
   }
   &__link{
-   @include text(500,15px,20px,#fff);
+   @include text(400,18px,25px,#454545);
     &:hover{
       color: #ffb825;
       transform: scale(1.2);

@@ -14,7 +14,7 @@ import bishkekP from "./bishkekP.svg"
 import path from "./path.svg"
 const BranchSection = () => {
     return (
-        <section className="branch">
+        <section className="branch" id={"branch"}>
             <h2 className="branch__title">
                 Наши филиалы
             </h2>
