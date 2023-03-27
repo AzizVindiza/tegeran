@@ -3,7 +3,6 @@
   background: linear-gradient(0deg, rgba(20, 147, 69, 0.8), rgba(20, 147, 69, 0.8)), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   .container{
     padding: 30px 0;
-
   }
   &__h2{
     @include text(600,25px,34px,#ffffff);
@@ -31,7 +30,6 @@
     @include Inter;
     padding: 0 10px;
     background: none;
-
     &::placeholder{
       @include text(400,16px,19px,#454545);
     }

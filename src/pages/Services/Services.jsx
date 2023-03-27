@@ -8,9 +8,11 @@ const Services = () => {
     const [data,setData]= useState([])
     useEffect(()=>{
         try {
-            const services = ky.get("https://mtk-smart.herokuapp.com/services/")
+           ky.get("https://mtk-smart.herokuapp.com/services/")
                 .json()
-                .then((res) => setData([...res]))
+                .then((res) => {
+                    setData([...res])
+                })
 
         } catch (error) {
             console.log(error.message)

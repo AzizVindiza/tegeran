@@ -10,8 +10,7 @@ const ServicesSection = () => {
 
     const [data,setData]= useState([])
    useEffect(()=>{
-       try {
-           const services = ky.get("https://mtk-smart.herokuapp.com/services/")
+       try {ky.get("https://mtk-smart.herokuapp.com/services/")
                .json()
                .then((res) => setData([...res]))
 

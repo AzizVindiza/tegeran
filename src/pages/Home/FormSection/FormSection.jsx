@@ -3,7 +3,6 @@ import "./FormSection.scss"
 import {useForm} from "react-hook-form";
 import ky from "ky";
 import { ToastContainer, toast } from 'react-toastify';
-
 import 'react-toastify/dist/ReactToastify.css';
 import Btn from "../../../components/Btn/Btn";
 
