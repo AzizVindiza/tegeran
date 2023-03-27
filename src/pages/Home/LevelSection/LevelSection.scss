@@ -8,7 +8,9 @@
     justify-content: center;
   }
   &__column{
-
+    img{
+      width: auto;
+    }
   }
   &__cards{
     padding: 20px;

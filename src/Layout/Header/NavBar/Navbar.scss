@@ -25,11 +25,16 @@
   }
   &__link{
    @include text(400,18px,25px,#454545);
+    &_whatsapp{
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      color: #8EC63F;
+    }
     &:hover{
       color: #ffb825;
       transform: scale(1.2);
       transition: 0.2s;
-
     }
   }
 }
