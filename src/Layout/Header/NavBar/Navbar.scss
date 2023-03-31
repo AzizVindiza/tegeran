@@ -40,13 +40,11 @@
 }
 
 @media (min-width: 1000px ) {
-}
-
-@media (min-width: 769px ) {
-}
-
-@media (min-width: 1025px) {
-}
-
-@media (min-width: 1201px) {
+  .nav{
+    flex-direction: row;
+    column-gap: 25px;
+    li:last-child{
+      margin-left: auto;
+    }
+  }
 }

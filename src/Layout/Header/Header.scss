@@ -51,17 +51,12 @@
     &menu{
       display: flex;
     }
+    //&container{
+    //  justify-content: flex-start;
+    //}
+    &logo{
+      margin-right: 50px;
+    }
   }
 }
 
-@media (min-width: 481px ) {
-}
-
-@media (min-width: 769px ) {
-}
-
-@media (min-width: 1025px) {
-}
-
-@media (min-width: 1201px) {
-}

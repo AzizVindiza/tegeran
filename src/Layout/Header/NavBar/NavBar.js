@@ -7,7 +7,7 @@ import {NavHashLink} from "react-router-hash-link";
 
 const NavBar = ({toggleClass,setActiveHamburger,isActiveHamburger}) => {
     const closeHamburger = () => {
-        setActiveHamburger(!isActiveHamburger);
+        setActiveHamburger(false);
     };
     // const {user} = useSelector((store) => store.user)
     return (

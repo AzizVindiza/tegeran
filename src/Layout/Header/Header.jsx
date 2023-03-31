@@ -19,7 +19,7 @@ const Header = () => {
             duration: 0
         })
     };
-    const closeHamburger = ()=>{
+    const closeHamburgerToTop = ()=>{
         setActiveHamburger(false);
         setActiveHamburgerMenu(false);
         animateScroll.scrollToTop({
@@ -44,12 +44,12 @@ const Header = () => {
         // }`}>
         <header className="header">
             <div className="header__container container ">
-                <NavLink className="header__logo" to='/' onClick={closeHamburger}>
+                <NavLink className="header__logo" to='/' onClick={closeHamburgerToTop}>
                     <img src={logo} alt="Smart International Trading Company logo"/>
                 </NavLink>
                 <HamburgerToggle setActiveHamburger={setActiveHamburger} isActiveHamburger={isActiveHamburger}/>
                 <nav className={`header__menu ${isActiveHamburger ? "header__menu_active" : null}`}>
-                    <NavBar setActiveHamburger={setActiveHamburger} isActiveHamburger={isActiveHamburger} toggleClass={toggleClass}/>
+                    <NavBar setActiveHamburger={setActiveHamburger} isActiveHamburger={isActiveHamburger} toggleClass={closeHamburgerToTop}/>
                 </nav>
             </div>
         </header>

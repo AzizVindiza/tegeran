@@ -2,7 +2,11 @@
 
 .first{
   position: relative;
-  &__bg{
+  &__bg-svg{
+    height: 100vh;
+    img{
+      object-fit: cover;
+    }
 
   }
   &__top{
@@ -41,5 +45,55 @@
   }
   &__img{
     display: none;
+    img{
+      object-fit: cover;
+    }
   }
+}
+@media (min-width: 500px) {
+.first{
+  &__h2{
+    @include text(700,42px,57px,#8EC63F);
+  }
+  &__h3{
+    @include text(400,18px,24px,#454545);
+
+  }
+
+}
+}
+@media (min-width: 1000px ) {
+  .first{
+    &__bottom{
+      &-title{
+        @include text(600,36px,49px,#ffffff);
+      }
+    }
+    &__bg-svg{
+      width: 50%;
+      position: relative;
+      img{
+        svg{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    &__img{
+      display: inline-block;
+      width: 50%;
+      object-fit: cover;
+    }
+    &__row{
+      display: flex;
+      height: 100vh;
+    }
+  }
+}
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1920px) {
+
 }
