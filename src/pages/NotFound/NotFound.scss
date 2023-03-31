@@ -1,3 +1,19 @@
+@import "src/scss/base/mixins";
 .notFound{
-
+  .container{
+    background: url("./404.png") center no-repeat;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    row-gap: 20px;
+  }
+  &__title{
+    @include text(600, 46px, 60px, #454545)
+  }
+  &__p{
+    @include text(400, 18px, 25px, #454545)
+  }
 }

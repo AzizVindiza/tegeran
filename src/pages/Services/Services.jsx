@@ -21,10 +21,8 @@ const Services = () => {
     return (
         <section className="services">
             <PageTitle text={"Наши услуги"}/>
-            <PagePath/>
-
+            <PagePath name={"Услуги"}/>
             <div className="container services__container">
-
                 {data.map((el,idx)=>(
                     <ServicesCard key={el.id} el={el} idx={idx}/>
                 ))}

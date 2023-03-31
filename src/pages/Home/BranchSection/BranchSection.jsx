@@ -12,6 +12,8 @@ import astanaP from "./astanaP.svg"
 import bishkek from "./bishkek.png"
 import bishkekP from "./bishkekP.svg"
 import path from "./path.svg"
+import path1000 from "./path1000.svg"
+import img from "./img.png"
 const BranchSection = () => {
     return (
         <section className="branch" id={"branch"}>
@@ -19,9 +21,10 @@ const BranchSection = () => {
                 Наши филиалы
             </h2>
             <div className="container">
-                <div className="branch__bg">
+                <picture className="branch__bg">
+                    <source media="(min-width:1000px)" srcSet={path1000}/>
                     <img src={path} alt="path"/>
-                </div>
+                </picture>
                 <div className="branch__img">
                     <img src={tegeran} alt="tegeran"/>
                     <img className="branch__point" src={tegeranP} alt="tegeran"/>
@@ -42,6 +45,9 @@ const BranchSection = () => {
                     <img src={bishkek} alt="bishkek"/>
                     <img className="branch__point" src={bishkekP} alt="bishkek"/>
                 </div>
+            </div>
+            <div className="branch__wrapper">
+                <img src={img} alt="map"/>
             </div>
 
         </section>

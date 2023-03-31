@@ -21,20 +21,19 @@
   }
 }
 @media (min-width: 1000px ) {
-  .servicesSection {
-    .container{
+  .services {
+    &__container.container{
       flex-direction: row;
       column-gap: 20px;
+      flex-wrap: wrap;
     }
   }
   .services-card{
-    width: 50%;
+    max-width: 365px;
   }
 }
 @media (min-width: 1440px) {
-
 }
 
 @media (min-width: 1920px) {
-
 }

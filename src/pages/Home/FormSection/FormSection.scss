@@ -39,6 +39,35 @@
   }
   &__error{
     @include text(400,16px,19px, #8f3131);
-
   }
+}
+@media (min-width: 1000px ) {
+  .formSection{
+    .container{
+      width:  530px;
+    }
+  }
+
+}
+@media (min-width: 1440px) {
+  .formSection{
+    .container{
+      padding: 80px 0;
+      width: 100%;
+    }
+  }
+  .form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    &__label{
+      margin-bottom: 0;
+      width: 500px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+
 }

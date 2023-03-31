@@ -1,0 +1,12 @@
+@import "src/scss/base/mixins";
+.contacts{
+  margin-top: 87px;
+  &__container{
+    padding: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

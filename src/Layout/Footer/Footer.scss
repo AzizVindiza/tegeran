@@ -42,5 +42,30 @@
     @include text(300, 12x, 15px, #706E6E80);
     text-align: center;
     margin-top: 35px;
+    padding: 20px;
   }
+}
+@media (min-width: 1000px ) {
+  .footer{
+    .container{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &__list{
+      padding: 0 40px;
+      width: 35%;
+    }
+    &__whatsapp{
+      position: relative;
+      bottom: -50px;
+      left: 0;
+    }
+  }
+}
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1920px) {
+
 }

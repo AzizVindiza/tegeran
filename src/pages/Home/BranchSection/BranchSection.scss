@@ -29,4 +29,44 @@
     align-items: center;
     justify-content: center;
   }
+  &__wrapper{
+    display: none;
+  }
+}
+@media (min-width: 1000px ) {
+  .branch{
+    .container{
+      row-gap: 0;
+      align-items: center;
+
+    }
+    &__img img{
+      width: 350px;
+    }
+    &__point{
+      display: none;
+    }
+    &__img:nth-child(odd){
+      align-self: flex-start;
+    }
+    &__img:nth-child(3){
+      position: relative;
+      left: 160px;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .branch{
+    .container{
+      display: none;
+    }
+    &__wrapper{
+      display: block;
+    }
+  }
+
+}
+
+@media (min-width: 1920px) {
+
 }

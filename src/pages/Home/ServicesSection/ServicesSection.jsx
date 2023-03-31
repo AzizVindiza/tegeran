@@ -30,13 +30,13 @@ const ServicesSection = () => {
             <h2 className="servicesSection__title">
                 Наши услуги
             </h2>
-            <div className="container">
+            <div className="services__container container">
                 {data.filter((item,idx) => idx < 5).map((el,idx)=>(
                     <ServicesCard key={el.id} el={el} idx={idx}/>
                     ))}
 
             </div>
-            <Link onClick={scrollToTop} className="servicesSection__link" to={"services"}>
+            <Link onClick={scrollToTop} className="servicesSection__link" to={`services`}>
                 <Btn text={'Все услуги'} type={"button"}/>
             </Link>
         </section>

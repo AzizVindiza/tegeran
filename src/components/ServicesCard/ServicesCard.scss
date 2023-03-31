@@ -13,8 +13,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    column-gap: 90px;
-
+    column-gap: 50px;
   }
   &__img{
     width: 63px;
@@ -40,7 +39,12 @@
 
 }
 @media (min-width: 1000px ) {
-  .services-card{
-    width: 50%;
-  }
+
+}
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1920px) {
+
 }

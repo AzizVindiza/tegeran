@@ -5,10 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/BranchSection/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/BranchSection/path1000.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OneServices/OneServices.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PagePath/PagePath.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PagePath/PagePath.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageTitle/PageTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageTitle/PageTitle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageTitle/PageTitle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageTitle/PageTitle.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ServicesCard/ServicesCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesCard/ServicesCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/AboutSection/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/AboutSection/AboutSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/AboutSection/AboutSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/AboutSection/AboutSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/AboutSection/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/BranchSection/BranchSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/BranchSection/BranchSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/BranchSection/BranchSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/BranchSection/BranchSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/FormSection/FormSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/FormSection/FormSection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFound/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFound/NotFound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFound/NotFound.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFound/NotFound.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Services/Services.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,8 +61,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/tegeran/src/pages/Home/LevelSection",
-    "list.type.of.created.stylesheet": "CSS",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/tegeran/src/pages/NotFound",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,9 +73,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\NotFound" />
+      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\BranchSection" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\LevelSection" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\FirstSection" />
-      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\BranchSection" />
       <recent name="C:\Users\user\Desktop\work\mtktegeran\src\pages\Home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -80,7 +102,7 @@
       <workItem from="1679892265193" duration="64000" />
       <workItem from="1679893152145" duration="637000" />
       <workItem from="1679894655052" duration="7502000" />
-      <workItem from="1680235536319" duration="15696000" />
+      <workItem from="1680235536319" duration="30104000" />
     </task>
     <servers />
   </component>
