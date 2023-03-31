@@ -1,15 +1,25 @@
 @import "src/scss/base/mixins";
 .level{
+  overflow: hidden;
+  position: relative;
   background: linear-gradient(180deg, #FBFBFB 0%, #E2E4E2 51.84%, #F7F7F6 100%);
   &__container{
-   padding: 30px 0;
+   padding: 40px 0;
     display: flex;
     align-items: flex-start;
     justify-content: center;
   }
+  &__cards_xl{
+    display: none;
+  }
+  &__column_xl{
+    display: none;
+  }
   &__column{
+    max-height: 1920px;
     img{
-      width: auto;
+      width: 28px;
+      height: 100%;
     }
   }
   &__cards{
@@ -19,23 +29,65 @@
     justify-content: center;
     flex-direction: column;
     row-gap: 50px;
+
   }
   &__card{
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 4px 1px 17px rgba(199, 194, 194, 0.2);
-    padding: 15px;
+    padding: 20px;
   }
   &__icon{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 60px;
     height: 60px;
   }
   &__h{
     margin-bottom: 10px;
-    @include text(600,18px,25px,#8EC63F);
+    @include text(600,20px,28px,#8EC63F);
   }
   &__p{
-    @include text(400,14px,19px,#878787);
+    @include text(400,16px,22px,#878787);
   }
+}
+@media (min-width: 1000px ) {
+
+ .level{
+   &__container{
+     justify-content: space-between;
+   }
+
+   &__column{
+     display: none;
+     &_xl{
+       display: block;
+       order: 1;
+     }
+
+   }
+   &__cards_xl{
+     &-right{
+       margin-top: 200px;
+       order: 2;
+     }
+     display: flex;
+     flex-direction: column;
+     row-gap: 165px;
+   }
+   &__card{
+     width: 370px;
+     height: 350px;
+     box-shadow: 4px 1px 17px rgba(199, 194, 194, 0.2);
+   }
+   &__cards{
+     display: none;
+   }
+ }
+}
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1920px) {
+
 }

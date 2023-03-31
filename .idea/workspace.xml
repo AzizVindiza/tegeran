@@ -6,16 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/NavBar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/NavBar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/FirstSection/FirstSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/FirstSection/FirstSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/FirstSection/FirstSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/FirstSection/FirstSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/FirstSection/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/FirstSection/bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/tegeran/src/pages/Home/FirstSection",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/tegeran/src/pages/Home/LevelSection",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\LevelSection" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\FirstSection" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\BranchSection" />
       <recent name="C:\Users\user\Desktop\work\mtktegeran\src\pages\Home" />
@@ -86,7 +80,7 @@
       <workItem from="1679892265193" duration="64000" />
       <workItem from="1679893152145" duration="637000" />
       <workItem from="1679894655052" duration="7502000" />
-      <workItem from="1680235536319" duration="5746000" />
+      <workItem from="1680235536319" duration="13987000" />
     </task>
     <servers />
   </component>

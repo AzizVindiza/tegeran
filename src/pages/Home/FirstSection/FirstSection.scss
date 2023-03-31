@@ -65,6 +65,7 @@
 @media (min-width: 1000px ) {
   .first{
     &__bottom{
+      padding: 60px 0;
       &-title{
         @include text(600,36px,49px,#ffffff);
       }
