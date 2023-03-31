@@ -16,6 +16,25 @@
     row-gap: 20px;
   }
   &__link{
-    
+    display: flex;
+    justify-content: center;
   }
+}
+@media (min-width: 1000px ) {
+  .servicesSection {
+    .container{
+      flex-direction: row;
+      column-gap: 20px;
+    }
+  }
+  .services-card{
+    width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1920px) {
+
 }

@@ -31,13 +31,14 @@ const ServicesSection = () => {
                 Наши услуги
             </h2>
             <div className="container">
-                {data.map((el,idx)=>(
+                {data.filter((item,idx) => idx < 5).map((el,idx)=>(
                     <ServicesCard key={el.id} el={el} idx={idx}/>
                     ))}
-                <Link onClick={scrollToTop} className="servicesSection__link" to={"services"}>
-                    <Btn text={'Все услуги'} type={"button"}/>
-                </Link>
+
             </div>
+            <Link onClick={scrollToTop} className="servicesSection__link" to={"services"}>
+                <Btn text={'Все услуги'} type={"button"}/>
+            </Link>
         </section>
     );
 };

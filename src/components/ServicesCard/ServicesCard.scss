@@ -6,13 +6,14 @@
   background: #FFFFFF;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   row-gap: 15px;
   &__row{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    column-gap: 90px;
 
   }
   &__img{
@@ -37,4 +38,9 @@
     @include text(600,16px,22px,#706E6E)
   }
 
+}
+@media (min-width: 1000px ) {
+  .services-card{
+    width: 50%;
+  }
 }

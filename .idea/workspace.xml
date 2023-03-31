@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/FirstSection/FirstSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/FirstSection/FirstSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServicesCard/ServicesCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesCard/ServicesCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ServicesSection/ServicesSection.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1679892265193" duration="64000" />
       <workItem from="1679893152145" duration="637000" />
       <workItem from="1679894655052" duration="7502000" />
-      <workItem from="1680235536319" duration="13987000" />
+      <workItem from="1680235536319" duration="15696000" />
     </task>
     <servers />
   </component>
