@@ -4,7 +4,7 @@
   background: #231F1F;
 
   .container {
-    padding: 20px 0;
+    padding: 50px 0 20px 0;
     background: #231F1F;
     display: flex;
     flex-direction: column;
@@ -45,9 +45,8 @@
     padding: 20px;
   }
   &__social{
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     column-gap: 20px;
   }

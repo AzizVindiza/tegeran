@@ -8,20 +8,20 @@ import NavBar from "./NavBar/NavBar";
 import {animateScroll} from "react-scroll";
 
 const Header = () => {
-    const [isActivHamburger, setActivHamburger] = useState(false);
-    const [isActivHamburgerMenu, setActivHamburgerMenu] = useState(false);
+    const [isActiveHamburger, setActiveHamburger] = useState(false);
+    const [isActiveHamburgerMenu, setActiveHamburgerMenu] = useState(false);
 
     const toggleClass = () => {
-        setActivHamburger(!isActivHamburger);
-        setActivHamburgerMenu(!isActivHamburgerMenu);
+        setActiveHamburger(!isActiveHamburger);
+        setActiveHamburgerMenu(!isActiveHamburgerMenu);
         animateScroll.scrollToTop({
             delay: 0,
             duration: 0
         })
     };
     const closeHamburgerToTop = ()=>{
-        setActivHamburger(false);
-        setActivHamburgerMenu(false);
+        setActiveHamburger(false);
+        setActiveHamburgerMenu(false);
         animateScroll.scrollToTop({
             delay: 0,
             duration: 0
@@ -47,9 +47,9 @@ const Header = () => {
                 <NavLink className="header__logo" to='/' onClick={closeHamburgerToTop}>
                     <img src={logo} alt="Smart International Trading Company"/>
                 </NavLink>
-                <HamburgerToggle setActivHamburger={setActivHamburger} isActivHamburger={isActivHamburger}/>
-                <nav className={`header__menu ${isActivHamburger ? "header__menu_active" : null}`}>
-                    <NavBar setActiveHamburger={setActivHamburger} isActivHamburger={isActivHamburger} toggleClass={closeHamburgerToTop}/>
+                <HamburgerToggle setActiveHamburger={setActiveHamburger} isActiveHamburger={isActiveHamburger}/>
+                <nav className={`header__menu ${isActiveHamburger ? "header__menu_active" : null}`}>
+                    <NavBar setActiveHamburger={setActiveHamburger} isActiveHamburger={isActiveHamburger} toggleClass={closeHamburgerToTop}/>
                 </nav>
             </div>
         </header>
