@@ -1,13 +1,13 @@
 import React from 'react';
 import "./HamburgerToggle.scss"
 
-const HamburgerToggle = ({setActiveHamburger,isActiveHamburger}) => {
+const HamburgerToggle = ({setActivHamburger,isActivHamburger}) => {
 
     const toggleClass = () => {
-        setActiveHamburger(!isActiveHamburger);
+        setActivHamburger(!isActivHamburger);
     };
     return (
-            <div className={`hamburger  ${isActiveHamburger ? "hamburger_active" : null}`} onClick={toggleClass}>
+            <div className={`hamburger  ${isActivHamburger ? "hamburger_active" : null}`} onClick={toggleClass}>
                 <div className="hamburger__stripe"></div>
                 <div className="hamburger__stripe hamburger__stripe_short"></div>
                 <div className="hamburger__stripe"></div>

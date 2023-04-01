@@ -11,6 +11,7 @@ import Layout from "./Layout/Layout";
 import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
 import OneServices from "./pages/OneServices/OneServices";
+import Contacts from "./pages/Contacts/Contacts";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -19,7 +20,7 @@ const router = createBrowserRouter(
             <Route path="*" element={<NotFound/>}/>
             <Route path="services" element={<Services/>}/>
             <Route path="services/:id" element={<OneServices/>}/>
-            <Route path="contacts" element={<Home/>}/>
+            <Route path="contacts" element={<Contacts/>}/>
         </Route>
     )
 );
