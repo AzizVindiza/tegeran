@@ -35,11 +35,11 @@ const Contacts = () => {
                 </div>
 
             </div>
-            {/*<iframe title="map"*/}
-            {/*        height="500"*/}
-            {/*        src={map}*/}
-            {/*        allowFullScreen="" loading="lazy"*/}
-            {/*        referrerPolicy="no-referrer-when-downgrade"></iframe>*/}
+            <iframe title="map"
+                    height="500"
+                    src={map}
+                    allowFullScreen="" loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
     );
 };
