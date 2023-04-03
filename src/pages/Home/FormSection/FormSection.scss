@@ -1,6 +1,6 @@
 @import "src/scss/base/mixins";
 .formSection{
-  background: linear-gradient(0deg, rgba(20, 147, 69, 0.8), rgba(20, 147, 69, 0.8)), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(0deg, rgba(20, 147, 69, 0.8), rgba(20, 147, 69, 0.8)), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./cityBg.png");
   .container{
     padding: 30px 0;
   }
