@@ -16,11 +16,10 @@ const OneServices = () => {
                     setData(res)
 
                 })
-            console.log(data)
         } catch (error) {
             console.log(error.message)
         }
-    },[pathname,data])
+    },[pathname])
     return (
         <section className="oneServices">
             <PageTitle text={"Наши услуги"}/>

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="" />
+    <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OneServices/OneServices.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OneServices/OneServices.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +89,7 @@
       <workItem from="1680349038968" duration="112000" />
       <workItem from="1680351380085" duration="3754000" />
       <workItem from="1680492360891" duration="9261000" />
-      <workItem from="1680505554110" duration="2740000" />
+      <workItem from="1680505554110" duration="5141000" />
     </task>
     <servers />
   </component>
