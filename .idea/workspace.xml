@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PageTitle/cityBg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\work\tegeran\src\components\PageTitle" />
+      <recent name="C:\Users\user\Desktop\work\tegeran\public" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Contacts" />
       <recent name="C:\Users\user\Desktop\work\tegeran\public\assets" />
-      <recent name="C:\Users\user\Desktop\work\tegeran\public" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\NotFound" />
-      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\BranchSection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\FormSection" />
       <recent name="C:\Users\user\Desktop\work\tegeran\public" />
       <recent name="C:\Users\user\Desktop\work\mtktegeran\src\pages\Home\FirstSection" />
     </key>
@@ -89,7 +90,7 @@
       <workItem from="1680349038968" duration="112000" />
       <workItem from="1680351380085" duration="3754000" />
       <workItem from="1680492360891" duration="9261000" />
-      <workItem from="1680505554110" duration="6339000" />
+      <workItem from="1680505554110" duration="6665000" />
     </task>
     <servers />
   </component>
