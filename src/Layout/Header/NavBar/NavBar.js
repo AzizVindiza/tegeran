@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar.scss"
-import {NavLink} from "react-router-dom";
-import {NavHashLink} from "react-router-hash-link";
+import {Link} from "react-router-dom";
+import {HashLink} from "react-router-hash-link";
 
 
 
@@ -13,21 +13,22 @@ const NavBar = ({toggleClass,setActiveHamburger,isActiveHamburger}) => {
     return (
         <ul className='nav container'>
             <li className="nav__item">
-                <NavHashLink className={"nav__link"} to={"/#about"} onClick={closeHamburger}>
+
+                <HashLink className={"nav__link"} to={"/#about"} onClick={closeHamburger}>
                     О нас
-                </NavHashLink>
+                </HashLink>
             </li>
-            <li className='nav__item'><NavLink className="nav__link" to="/services" onClick={() => {
+            <li className='nav__item'><Link className="nav__link" to="/services" onClick={() => {
                 toggleClass()
-            }}>Услуги</NavLink></li>
+            }}>Услуги</Link></li>
             <li className="nav__item">
-                <NavHashLink className={"nav__link"} to={"/#branch"} onClick={closeHamburger}>
+                <HashLink className={"nav__link"} to={"/#branch"} onClick={closeHamburger}>
                     Филиалы
-                </NavHashLink>
+                </HashLink>
             </li>
-            <li className='nav__item'><NavLink className="nav__link" to="/contacts" onClick={() => {
+            <li className='nav__item'><Link className="nav__link" to="/contacts" onClick={() => {
                 toggleClass()
-            }}>Контакты</NavLink>
+            }}>Контакты</Link>
             </li>
             <li className="nav__item">
                 <a href="https://wa.me/79035070012" className="nav__link nav__link_whatsapp">

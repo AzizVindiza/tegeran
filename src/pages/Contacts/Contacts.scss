@@ -1,6 +1,7 @@
 @import "src/scss/base/mixins";
 .contacts{
   margin-top: 87px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E4E2 44.33%, #FFFFFF 98.96%);
   &__container{
     padding: 20px;
     display: flex;
@@ -8,5 +9,76 @@
     justify-content: center;
     flex-direction: column;
     row-gap: 20px;
+  }
+  &__tabs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  &__h3{
+    @include text(500, 18px, 22px, #454545)
+  }
+  &__p{
+    text-align: center;
+    @include text(400, 15px, 19px, #454545)
+  }
+  &__tab{
+    &_active{
+      background: #8EC63F;
+      .contacts__h3{
+        color: #FFFFFF;
+      }
+      .contacts__p{
+        color: #FFFFFF;
+
+      }
+      .contacts__tel{
+        color: #FFFFFF;
+      }
+    }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 30px 20px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 7px rgba(151, 151, 151, 0.3);
+    border-radius: 20px;
+  }
+  &__img{
+    width: 200px;
+  }
+
+  &__tel{
+
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  iframe{
+    width: 100%;
+  }
+}
+@media (min-width: 1000px) {
+  .contacts{
+    &__tabs{
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    &__tab{
+      width: 250px;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .contacts{
+    &__tabs{
+
+      flex-wrap: nowrap;
+    }
   }
 }

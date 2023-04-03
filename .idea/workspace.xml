@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/HamburgerToggle/HamburgerToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/HamburgerToggle/HamburgerToggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/Header/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/NavBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/coordinates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/coordinates.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +40,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/work/tegeran/public&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/tegeran/src/pages/Contacts",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Contacts" />
+      <recent name="C:\Users\user\Desktop\work\tegeran\public\assets" />
       <recent name="C:\Users\user\Desktop\work\tegeran\public" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\NotFound" />
       <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\BranchSection" />
-      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\LevelSection" />
-      <recent name="C:\Users\user\Desktop\work\tegeran\src\pages\Home\FirstSection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\work\tegeran\public" />
@@ -89,6 +94,8 @@
       <workItem from="1680322192504" duration="18043000" />
       <workItem from="1680348767972" duration="54000" />
       <workItem from="1680349038968" duration="112000" />
+      <workItem from="1680351380085" duration="3754000" />
+      <workItem from="1680492360891" duration="8911000" />
     </task>
     <servers />
   </component>
