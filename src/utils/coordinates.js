@@ -27,8 +27,8 @@ const coordinate = [
     {
         name : "Алматы",
         address: "ITC SMART TEHRAN \n" +
-            "Казахская Республика, г Алматы, ул. Шолохова дом 35, офис 1",
-        one: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.36737778763336!2d76.94114335421982!3d43.33774099163789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836cc810365d13%3A0xf033d3d779d86d35!2z0YPQuy4g0KjQvtC70L7RhdC-0LLQsCAzNSwg0JDQu9C80LDRgtGLLCDQmtCw0LfQsNGF0YHRgtCw0L0!5e0!3m2!1sru!2skg!4v1680496085282!5m2!1sru!2skg",
+            "ТОО \"MTK SMART\" Казахская Республика, г.Алматы, ул. Бекмаханова, д.81",
+        one: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.1814009875263!2d76.96594567534459!3d43.347889006182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836d2ae7aeb643%3A0xf6fa7b03c61cae53!2z0YPQuy4g0JHQtdC60LzQsNGF0LDQvdC-0LLQsCA4MSwg0JDQu9C80LDRgtGLIDA1MDAyOCwg0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2skg!4v1680598473441!5m2!1sru!2skg",
         two: "+7 (701) 723 34 47",
         img: "./assets/4.png",
         three : "+7 (775) 772 77 24",
@@ -38,7 +38,7 @@ const coordinate = [
         address: "ОсОО “МТК СМАРТ”\n" +
             "Кыргызская Республика г. Бишкек ул. Тоголок Молдо 3Б",
         one: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1461.9796553455744!2d74.59467377577268!3d42.873702960435665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7ded79b1a0f%3A0xc34f39ccc78e34f7!2z0JDQstGC0L7QvNC-0LHQuNC70YzQvdCw0Y8g0YHRgtC-0Y_QvdC60LAsINCR0LjRiNC60LXQug!5e0!3m2!1sru!2skg!4v1680496290044!5m2!1sru!2skg",
-        two: "+996 (990) 444488",
+        two: "+996 (550) 33 30 30",
         img: "./assets/5.png",
         three : "",
     },

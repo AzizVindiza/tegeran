@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="09d49ffa-f4f8-4ce4-8c7f-15f8a9a69a6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServicesCard/ServicesCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesCard/ServicesCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/AboutSection/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/AboutSection/AboutSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/LevelSection/LevelSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/coordinates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/coordinates.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/tegeran/src/components/PageTitle",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/work/tegeran/src/components/PageTitle&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\work\tegeran\src\components\PageTitle" />
@@ -90,7 +94,9 @@
       <workItem from="1680349038968" duration="112000" />
       <workItem from="1680351380085" duration="3754000" />
       <workItem from="1680492360891" duration="9261000" />
-      <workItem from="1680505554110" duration="6665000" />
+      <workItem from="1680505554110" duration="8086000" />
+      <workItem from="1680516014171" duration="16000" />
+      <workItem from="1680597982400" duration="1353000" />
     </task>
     <servers />
   </component>
